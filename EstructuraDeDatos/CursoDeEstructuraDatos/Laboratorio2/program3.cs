@@ -1,4 +1,4 @@
-﻿
+﻿/*
 public class Contador_De_Vocales
 {
     public static void Main()
@@ -21,3 +21,4 @@ public class Contador_De_Vocales
     }
 
 }
+*/
