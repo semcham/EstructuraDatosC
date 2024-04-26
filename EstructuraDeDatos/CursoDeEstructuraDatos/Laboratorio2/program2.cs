@@ -1,5 +1,5 @@
 ﻿
-public class Calculadora
+public class Sumatoria
 {
 
     public static void Main()
