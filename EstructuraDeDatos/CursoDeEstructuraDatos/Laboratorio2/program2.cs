@@ -2,7 +2,7 @@
 public class Sumatoria
 {
 
-    public static void Main()
+    public static void Suma()
     {
         Console.WriteLine("Ingrese un numero entero : ");
         int numero =  Int32.Parse(Console.ReadLine());
