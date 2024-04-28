@@ -1,25 +1,38 @@
 ﻿
-//Desarrollo y Actividades 
-//Ejercicio parte 01: 
-//Operaciones Básicas: 
-//1) Realiza la suma, resta, multiplicación y división de dos números ingresados por el usuario. 
+////Desarrollo y Actividades 
+////Ejercicio parte 01: 
+////Operaciones Básicas: 
+////1) Realiza la suma, resta, multiplicación y división de dos números ingresados por el usuario. 
 
-/*
-Console.WriteLine("Ingrese el primer numero: ");
-int n1 = Int32.Parse(Console.ReadLine());
+////declaracion 
+//double n1, n2, suma, resta, multiplicacion, division;
+//Console.Write("Ingrese el primer numero entero: ");
+//n1 = double.Parse(Console.ReadLine());
+//Console.Write("Ingrese el segundo numero entro: ");
+//n2 = double.Parse(Console.ReadLine());
+////Resolucion
+//suma = n1 + n2;
+//resta = n1 + n2;
+//multiplicacion = n1* n2;
+//if (n2 != 0)
+//{
+//    division = n1 / n2;
+//}
+//else
+//{
+//    Console.WriteLine("No se puede dividir entre cero.");
+//}
 
-Console.WriteLine("Ingrese el segundo numero: ");
-int n2 = Int32.Parse(Console.ReadLine());
-int suma = n1 + n2;
-int resta = n1 - n2;
-int multiplicacion = n1 * n2;
-int division = n1 / n2;
-Console.WriteLine($"La suma es : {suma}");
-Console.WriteLine($"La resta es : {resta}");
-Console.WriteLine($"La multiplicacion es : {multiplicacion}");
-Console.WriteLine($"La division es : {division}");
-*/
+////resultados
+//Console.WriteLine($"La suma es : {suma}");
+//Console.WriteLine($"La resta es : {resta}");
+//Console.WriteLine($"La multiplicacion es : {multiplicacion}");
+//Console.WriteLine($"La division es : {division}");
 
+
+
+
+//
 //Verificación de Número Par o Impar: 
 //2) Solicita un número al usuario y determina si es par o impar. 
 /*
@@ -47,11 +60,16 @@ Console.WriteLine($"El Area  es : {area} ");
 */
 
 
+
+
+
+
+
 //Calculadora de Factorial: 
 //4) Crea una función que calcule la factorial de un número. 
-/*
-Console.WriteLine("Ingrese un numero entero: ");
-int n = Int32.Parse(Console.ReadLine());
+
+Console.Write("Ingrese un numero entero: ");
+long n = long.Parse(Console.ReadLine());
 int factorial = 1;
 if (n == 0)
 {
@@ -65,7 +83,23 @@ else
     }
 }
 Console.WriteLine($"El facrorial del numero {n} es : {factorial}");
-*/
+Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Número Primo: 
